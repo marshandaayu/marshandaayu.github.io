@@ -1,0 +1,145 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Electronics Engineer",
+    "tagline": "Designing circuits that power the future.",
+    "bio": "Electronics Engineer with a passion for embedded systems, PCB design, and signal processing. I bridge the gap between hardware and software to build reliable, efficient systems.",
+    "email": "yourname@email.com",
+    "phone": "+62 812-3456-7890",
+    "location": "Semarang, Central Java, Indonesia",
+    "linkedin": "https://linkedin.com/in/yourname",
+    "github": "https://github.com/yourname",
+    "cv": "docs/cv.pdf"
+  },
+  "skills": [
+    { "category": "Hardware Design", "items": ["PCB Design (KiCad, Altium)", "Schematic Capture", "Circuit Simulation (LTSpice)", "Analog & Digital Electronics", "Power Electronics"] },
+    { "category": "Embedded Systems", "items": ["Microcontrollers (STM32, ESP32, AVR)", "RTOS (FreeRTOS)", "Firmware Development (C/C++)", "I2C, SPI, UART, CAN", "Sensor Integration"] },
+    { "category": "Signal Processing", "items": ["Filter Design", "FFT Analysis", "MATLAB/Simulink", "ADC/DAC Systems", "RF Basics"] },
+    { "category": "Tools & Software", "items": ["Oscilloscope & Logic Analyzer", "Python (NumPy, Matplotlib)", "Git & Version Control", "SolidWorks (basic)", "LabVIEW"] }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Wireless Sensor Network for Industrial Monitoring",
+      "category": "Embedded Systems",
+      "year": "2024",
+      "description": "Designed a mesh-topology wireless sensor network using ESP32 modules to monitor temperature, humidity, and vibration in real-time for a factory environment. Data transmitted via MQTT to a cloud dashboard.",
+      "tech": ["ESP32", "FreeRTOS", "MQTT", "PCB Design", "Python"],
+      "image": "images/project1.svg"
+    },
+    {
+      "id": 2,
+      "title": "Custom BLDC Motor Controller",
+      "category": "Power Electronics",
+      "year": "2024",
+      "description": "Developed a 3-phase BLDC motor controller from scratch with FOC algorithm, using STM32 and custom gate driver circuitry. Achieved 96% efficiency at rated load.",
+      "tech": ["STM32", "MOSFET Gate Driver", "FOC Algorithm", "Altium Designer", "C"],
+      "image": "images/project2.svg"
+    },
+    {
+      "id": 3,
+      "title": "Low-Power IoT Environmental Logger",
+      "category": "IoT",
+      "year": "2023",
+      "description": "Built an ultra-low-power data logger for remote environmental sensing. Solar-charged with battery backup, LoRa communication, and 2-year estimated battery life in sleep mode.",
+      "tech": ["LoRa SX1276", "ATmega328P", "Solar MPPT", "KiCad", "C++"],
+      "image": "images/project3.svg"
+    },
+    {
+      "id": 4,
+      "title": "Analog ECG Signal Conditioner",
+      "category": "Biomedical Electronics",
+      "year": "2023",
+      "description": "Designed a precision instrumentation amplifier chain for ECG acquisition: INA128 front-end, notch filter at 50Hz, bandpass filter 0.5–150Hz, and USB data capture.",
+      "tech": ["Op-Amp Design", "INA128", "Active Filters", "LTSpice", "PCB"],
+      "image": "images/project4.svg"
+    },
+    {
+      "id": 5,
+      "title": "Automated PCB Testing Fixture",
+      "category": "Test & Measurement",
+      "year": "2022",
+      "description": "Created an automated bed-of-nails test fixture with Python-controlled relay matrix to verify PCB functionality during production. Reduced testing time by 70%.",
+      "tech": ["Python", "Raspberry Pi", "Relay Matrix", "KiCad", "UART"],
+      "image": "images/project5.svg"
+    },
+    {
+      "id": 6,
+      "title": "MPPT Solar Charge Controller",
+      "category": "Power Electronics",
+      "year": "2022",
+      "description": "Implemented Perturb & Observe MPPT algorithm on a 12V/10A solar charge controller with synchronous buck converter, LCD status display, and protection circuits.",
+      "tech": ["PIC16F877A", "Buck Converter", "MPPT Algorithm", "Proteus", "C"],
+      "image": "images/project6.svg"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2024 – Present",
+      "role": "Electronics Engineer",
+      "company": "PT. Tech Solutions Indonesia",
+      "description": "Lead hardware design for embedded IoT products. Responsible for PCB layout, firmware architecture, and production testing protocols."
+    },
+    {
+      "year": "2022 – 2024",
+      "role": "Junior Electronics Engineer",
+      "company": "PT. Industri Elektronika Nusantara",
+      "description": "Supported R&D team in designing and validating power electronics boards. Conducted EMC pre-compliance testing and schematic reviews."
+    },
+    {
+      "year": "2021 – 2022",
+      "role": "Electronics Engineering Intern",
+      "company": "Balai Besar Teknologi Industri",
+      "description": "Assisted in developing microcontroller-based automation systems. Wrote firmware for sensor acquisition and implemented data visualization in Python."
+    },
+    {
+      "year": "2018 – 2022",
+      "role": "Bachelor of Electronics Engineering",
+      "company": "Universitas Diponegoro",
+      "description": "GPA 3.75/4.00. Thesis: 'Design and Implementation of Wireless Sensor Node for Structural Health Monitoring using LoRa Technology.'"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Budi Santoso",
+      "role": "Senior Engineer, PT. Tech Solutions",
+      "text": "A highly detail-oriented engineer with deep understanding of both analog and digital systems. Consistently delivers reliable hardware designs on schedule."
+    },
+    {
+      "name": "Dr. Rina Wulandari",
+      "role": "Thesis Supervisor, Universitas Diponegoro",
+      "text": "One of the most motivated students I have supervised. Demonstrated exceptional ability to translate theoretical knowledge into practical, working systems."
+    },
+    {
+      "name": "Ahmad Fauzan",
+      "role": "Product Manager, PT. Industri Elektronika",
+      "text": "Brought a strong engineering mindset to our product development process. The PCB testing fixture he built cut our QC time dramatically."
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Why PCB Impedance Matching Matters More Than You Think",
+      "date": "2024-05-10",
+      "category": "PCB Design",
+      "excerpt": "A deep dive into transmission line effects on high-speed PCB traces and how to calculate the right trace geometry for your stackup.",
+      "readTime": "6 min"
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with FreeRTOS on STM32",
+      "date": "2024-03-22",
+      "category": "Embedded Systems",
+      "excerpt": "A practical guide to setting up FreeRTOS tasks, queues, and semaphores on the STM32 platform using STM32CubeIDE.",
+      "readTime": "8 min"
+    },
+    {
+      "id": 3,
+      "title": "Understanding Decoupling Capacitors: Placement & Value Selection",
+      "date": "2023-12-01",
+      "category": "Hardware Design",
+      "excerpt": "Why decoupling caps are often misunderstood, and a systematic approach to selecting values and placement for power integrity.",
+      "readTime": "5 min"
+    }
+  ]
+}

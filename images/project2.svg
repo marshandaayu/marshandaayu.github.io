@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" width="400" height="220">
+  <rect width="400" height="220" fill="#0f1923"/>
+  <!-- Motor symbol -->
+  <circle cx="200" cy="100" r="55" fill="none" stroke="#378add" stroke-width="2"/>
+  <circle cx="200" cy="100" r="40" fill="none" stroke="#185fa5" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="200" y="96" fill="#85b7eb" font-size="14" text-anchor="middle" font-family="monospace">BLDC</text>
+  <text x="200" y="112" fill="#85b7eb" font-size="11" text-anchor="middle" font-family="monospace">Motor</text>
+  <!-- 3 phase lines -->
+  <line x1="60" y1="65" x2="145" y2="85" stroke="#e24b4a" stroke-width="2"/>
+  <line x1="60" y1="100" x2="145" y2="100" stroke="#1d9e75" stroke-width="2"/>
+  <line x1="60" y1="135" x2="145" y2="115" stroke="#185fa5" stroke-width="2"/>
+  <text x="30" y="68" fill="#e24b4a" font-size="10" font-family="monospace">U</text>
+  <text x="30" y="103" fill="#1d9e75" font-size="10" font-family="monospace">V</text>
+  <text x="30" y="138" fill="#378add" font-size="10" font-family="monospace">W</text>
+  <!-- Controller block -->
+  <rect x="290" y="70" width="80" height="60" rx="4" fill="#0c447c" stroke="#378add" stroke-width="1"/>
+  <text x="330" y="96" fill="#b5d4f4" font-size="10" text-anchor="middle" font-family="monospace">STM32</text>
+  <text x="330" y="110" fill="#b5d4f4" font-size="10" text-anchor="middle" font-family="monospace">FOC</text>
+  <line x1="255" y1="100" x2="290" y2="100" stroke="#85b7eb" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="200" y="205" fill="#85b7eb" font-size="11" text-anchor="middle" font-family="monospace">BLDC Motor Controller</text>
+</svg>
